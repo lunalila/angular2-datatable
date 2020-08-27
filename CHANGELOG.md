@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.0_patch1 (2020-08-26)
+
+Fixes:
+
+    - fix Null order
+
 ## 0.6.0 (2017-03-27)
 
 Fixes:
