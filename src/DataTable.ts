@@ -140,7 +140,7 @@ export class DataTable implements OnChanges, DoCheck {
         let offset = (this.activePage - 1) * this.rowsOnPage;
         let data = this.inputData;
         var sortBy = this.sortBy;
-        if (typeof sortBy === 'string' || sortBy instanceof String) {
+/*        if (typeof sortBy === 'string' || sortBy instanceof String) {
         //    data = _.orderBy(data, this.caseInsensitiveIteratee(<string>sortBy), [this.sortOrder]);
             data = _.orderBy(data, [( o ) => { return this.caseInsensitiveIteratee(<string>o.sortBy) || ''}] , [this.sortOrder]);
         } else {
@@ -148,6 +148,7 @@ export class DataTable implements OnChanges, DoCheck {
             data = _.orderBy(data, [( o ) => { return o.sortBy || ''}], [this.sortOrder]);
         }
         data = _.slice(data, offset, offset + this.rowsOnPage);
+*/
         this.data = data;
     }
 

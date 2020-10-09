@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.0_patch2 (2020-10-08)
+
+Fixes:
+
+    - IE not load
+
 ## 0.6.0_patch1 (2020-08-26)
 
 Fixes:
